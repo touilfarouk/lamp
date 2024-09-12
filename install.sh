@@ -58,7 +58,7 @@ curl -sS https://getcomposer.org/installer | php
 sudo mv composer.phar /usr/local/bin/composer
 
 # Clone the project from GitHub
-sudo git clone https://github.com/panique/huge "/var/www/html/${PROJECTFOLDER}"
+sudo git clone https://github.com/touilfarouk/convert_csv_to_mysql "/var/www/html/${PROJECTFOLDER}"
 
 # Go to project folder and load Composer packages
 cd "/var/www/html/${PROJECTFOLDER}"
